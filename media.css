@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+/* Jika layar lebih dari 1080 */
+@media screen and (min-width: 1080px) {
+  body { background-color: #00f; }
+  h1 { font-size: 2em; border-style: dashed; }
+}
+
+/* Jika layar kurang dari 300px */
+@media screen and (max-width: 300px) {
+  body { background-color: #ccc; }
+  h1 { border-style: solid; }
+}
